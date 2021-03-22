@@ -1,10 +1,10 @@
-# Application or Library Title
+# amber3d
 
 The Application or The Library doing The Thing.
 
-## Use ApplicationOrLibraryTitle library in your project
+## Use Amber3d library in your project
 
-**DELETE THIS PARAGRAPH, IF ApplicationOrLibraryTitle IS A LIBRARY. DELETE WHOLE THIS SECTION IF ApplicationOrLibraryTitle IS AN APP, NOT A LIBRARY.**
+**DELETE THIS PARAGRAPH, IF Amber3d IS A LIBRARY. DELETE WHOLE THIS SECTION IF Amber3d IS AN APP, NOT A LIBRARY.**
 
 If not already done, install Amber and create an Amber project with `amber init`,
 as shown in [Amber Instructions](https://lolg.it/amber/amber#prerequisities).
@@ -12,14 +12,14 @@ as shown in [Amber Instructions](https://lolg.it/amber/amber#prerequisities).
 In a project, run
 
 ```sh
-npm install ApplicationOrLibraryTitle --save
+npm install Amber3d --save
 grunt devel
 amber serve
 ```
 
 Go to `http://localhost:4000/` in your browser and
-in all packages that use ApplicationOrLibraryTitle,
-add `'amber-applicationorlibrarytitle/ApplicationOrLibraryTitle'` to the package imports,
+in all packages that use Amber3d,
+add `'amber-amber3d/Amber3d'` to the package imports,
 save the change and commit the package. Reload.
 
 ## Contributing

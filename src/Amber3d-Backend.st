@@ -1,9 +1,9 @@
-Smalltalk createPackage: 'ApplicationOrLibraryTitle-Backend'!
-Object subclass: #ApplicationOrLibraryTitleBackend
+Smalltalk createPackage: 'Amber3d-Backend'!
+Object subclass: #Amber3dBackend
 	slots: {}
-	package: 'ApplicationOrLibraryTitle-Backend'!
+	package: 'Amber3d-Backend'!
 
-!ApplicationOrLibraryTitleBackend methodsFor: 'lambda api'!
+!Amber3dBackend methodsFor: 'lambda api'!
 
 echoEvent: event andContext: context
 	^ #{

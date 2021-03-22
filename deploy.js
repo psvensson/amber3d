@@ -1,7 +1,7 @@
 define([
     'amber/deploy',
     // --- packages to be deployed begin here ---
-    'amber-applicationorlibrarytitle/ApplicationOrLibraryTitle'
+    'amber-amber3d/Amber3d'
     // --- packages to be deployed end here ---
 ], function (amber) {
     return amber;

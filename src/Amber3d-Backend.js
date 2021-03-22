@@ -1,9 +1,9 @@
 define(["amber/boot", "require", "amber/core/Kernel-Objects"], function($boot,requirejs){"use strict";
 var $core=$boot.api,nil=$boot.nilAsValue,$nil=$boot.nilAsReceiver,$recv=$boot.asReceiver,$globals=$boot.globals;
-var $pkg = $core.addPackage("ApplicationOrLibraryTitle-Backend");
-$pkg.transport = {"type":"amd","amdNamespace":"amber-applicationorlibrarytitle"};
+var $pkg = $core.addPackage("Amber3d-Backend");
+$pkg.transport = {"type":"amd","amdNamespace":"amber-amber3d"};
 
-$core.addClass("ApplicationOrLibraryTitleBackend", $globals.Object, "ApplicationOrLibraryTitle-Backend");
+$core.addClass("Amber3dBackend", $globals.Object, "Amber3d-Backend");
 $core.addMethod(
 $core.method({
 selector: "echoEvent:andContext:",
@@ -25,7 +25,7 @@ return $globals.HashedCollection._newFromPairs_(["statusCode",(200),"headers",$g
 }, function($ctx1) {$ctx1.fill(self,"echoEvent:andContext:",{event:event,context:context})});
 //>>excludeEnd("ctx");
 }; }),
-$globals.ApplicationOrLibraryTitleBackend);
+$globals.Amber3dBackend);
 
 $core.addMethod(
 $core.method({
@@ -52,7 +52,7 @@ return $globals.HashedCollection._newFromPairs_(["statusCode",(200),"headers",$g
 }, function($ctx1) {$ctx1.fill(self,"status",{})});
 //>>excludeEnd("ctx");
 }; }),
-$globals.ApplicationOrLibraryTitleBackend);
+$globals.Amber3dBackend);
 
 
 });

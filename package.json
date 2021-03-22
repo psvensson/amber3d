@@ -1,6 +1,6 @@
 {
-  "name": "applicationorlibrarytitle",
-  "title": "Application or Library Title",
+  "name": "amber3d",
+  "title": "amber3d",
   "description": "The Application or The Library doing The Thing.",
   "version": "0.1.0",
   "homepage": "https://github.com/psvensson/amber3d",
@@ -16,6 +16,10 @@
     "url": "https://github.com/psvensson/amber3d/issues"
   },
   "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/psvensson/amber3d/blob/master/LICENSE-MIT"
+    }
   ],
   "engines": {
     "node": ">=4.0.0"
@@ -32,6 +36,7 @@
     "@ambers/domite": "^0.9.0",
     "@ambers/lang": "^0.30.0",
     "@ambers/silk": "^0.6.0",
+    "babylonjs": "^4.2.0",
     "es6-promise": "^4.2.6"
   },
   "devDependencies": {

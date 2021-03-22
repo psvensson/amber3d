@@ -67,10 +67,10 @@ module.exports = function (grunt) {
             },
             all: {
                 src: [
-                    'src/ApplicationOrLibraryTitle.st', 'src/ApplicationOrLibraryTitle-Backend.st', // list all sources in dependency order
-                    'src/ApplicationOrLibraryTitle-Tests.st' // list all tests in dependency order
+                    'src/Amber3d.st', 'src/Amber3d-Backend.st', // list all sources in dependency order
+                    'src/Amber3d-Tests.st' // list all tests in dependency order
                 ],
-                amd_namespace: 'amber-applicationorlibrarytitle',
+                amd_namespace: 'amber-amber3d',
                 libraries: ['amber/core/SUnit', 'amber/web/Web', 'silk/Silk']
             }
         },

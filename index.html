@@ -2,9 +2,10 @@
 <html>
 
 <head>
-    <title>Application or Library Title</title>
+    <title>amber3d</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="author" content="Peter Svensson"/>
+    <script type='text/javascript' src='node_modules/babylonjs/babylon.js'></script>
     <script type='text/javascript' src='the.js'></script>
 </head>
 
@@ -29,7 +30,7 @@
         amberPromise.then(function (amber) {
             amber.initialize({
                 //used for all new packages in IDE
-                'transport.defaultAmdNamespace': "amber-applicationorlibrarytitle"
+                'transport.defaultAmdNamespace': "amber-amber3d"
             }).then(function () {
                 // This shows IDE dialog in development mode (module is present).
                 // This silently fails in deploy mode (module is missing).
@@ -38,11 +39,22 @@
                     dlg.start();
                 });
                 // Start the app itself.
-                amber.globals.ApplicationOrLibraryTitle._start();
+                amber.globals.Amber3d._start();
             });
         });
     });
 </script>
+    <div id="canvasZone">
+        <canvas id="renderCanvas" style='height:600px'></canvas>
+        <!--
+        <script type="text/javascript">
+        // Get the canvas DOM element
+	    var canvas = document.getElementById('renderCanvas');
+	    // Load the 3D engine
+	    window.engine = new BABYLON.Engine(canvas, true, {preserveDrawingBuffer: true, stencil: true});
+        </script>
+        -->
+    </div>
 </body>
 
 </html>
