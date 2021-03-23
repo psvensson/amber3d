@@ -1,5 +1,5 @@
 Smalltalk createPackage: 'Amber3d'!
-(Smalltalk packageAt: 'Amber3d' ifAbsent: [ self error: 'Package not created: Amber3d' ]) imports: {'amber/web/Web'. 'amber/web/Web-JQuery'. 'silk/Silk'}!
+(Smalltalk packageAt: 'Amber3d' ifAbsent: [ self error: 'Package not created: Amber3d' ]) imports: {'amber/web/Web'. 'amber/web/Web-JQuery'. 'babyonjs-loaders'. 'silk/Silkbabylonjs'}!
 Object subclass: #Amber3d
 	slots: {#engine. #canvas. #scene}
 	package: 'Amber3d'!

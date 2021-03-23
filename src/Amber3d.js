@@ -1,9 +1,9 @@
 define(["amber/boot", "require", "amber/core/Kernel-Objects"], function($boot,requirejs){"use strict";
 var $core=$boot.api,nil=$boot.nilAsValue,$nil=$boot.nilAsReceiver,$recv=$boot.asReceiver,$globals=$boot.globals;
 var $pkg = $core.addPackage("Amber3d");
-$pkg.imports = ["amber/web/Web", "amber/web/Web-JQuery", "silk/Silk"];
+$pkg.imports = ["amber/web/Web", "amber/web/Web-JQuery", "babylonjs-loaders", "silk/Silk", "babylonjs"];
 //>>excludeStart("imports", pragmas.excludeImports);
-$pkg.isReady = new Promise(function (resolve, reject) { requirejs(["amber/web/Web", "amber/web/Web-JQuery", "silk/Silk"], function () {resolve();}, reject); });
+$pkg.isReady = new Promise(function (resolve, reject) { requirejs(["amber/web/Web", "amber/web/Web-JQuery", "silk/Silk", "babylonjs", "babylonjs-loaders"], function () {resolve();}, reject); });
 //>>excludeEnd("imports");
 $pkg.transport = {"type":"amd","amdNamespace":"amber-amber3d"};
 
