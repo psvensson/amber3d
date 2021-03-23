@@ -2,7 +2,7 @@
 
 This is a small demo application wriitng in Amber Smalltalk, using BabolynJS to create a small scene, including an animated glTF model (combining several animations from Mixamo).
 
-[Screenshot from 2021-03-23 20-48-11.png]
+![image](https://github.com/psvensson/amber3d/blob/main/Screenshot%20from%202021-03-23%2020-48-11.png)
 
 If not already done, install Amber and create an Amber project with `amber init`,
 as shown in [Amber Instructions](https://lolg.it/amber/amber#prerequisities).
