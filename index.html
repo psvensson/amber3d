@@ -6,22 +6,29 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="author" content="Peter Svensson"/>
     <script type='text/javascript' src='node_modules/babylonjs/babylon.js'></script>
+    <script type='text/javascript' src='node_modules/babylonjs-loaders/babylonjs.loaders.js'></script>
     <script type='text/javascript' src='the.js'></script>
+     <style>
+            html, body {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            #renderCanvas {
+                width: 100%;
+                height: 100%;
+                touch-action: none;
+            }
+        </style>
 </head>
 
 <body>
 <!-- EXAMPLE APP START -->
-<p>This is a sample app. It contains some
-    <a href="parts.html">batteries included</a>
-    and should be
-    <a href="uninstall.html">cleaned up</a>
-    once you start developing your own app / lib.</p>
-<button id="amber-with">Hello from TagBrush >> with:</button>
-<button id="silk-tag">Hello from Silk >> TAG:</button>
-<button id="jquery-append">Hello from jQuery append</button>
-<button id="console-log">Log into JS console</button>
-<button id="timeout-alert">Remind me in five seconds</button>
-<button id="lambda-status">Inspect status of backend</button>
+
+<button id="load-babylonjs">Load Babylon JS</button>
 <ol id="output-list"></ol>
 <!-- EXAMPLE APP END -->
 <script type='text/javascript'>
@@ -45,15 +52,7 @@
     });
 </script>
     <div id="canvasZone">
-        <canvas id="renderCanvas" style='height:600px'></canvas>
-        <!--
-        <script type="text/javascript">
-        // Get the canvas DOM element
-	    var canvas = document.getElementById('renderCanvas');
-	    // Load the 3D engine
-	    window.engine = new BABYLON.Engine(canvas, true, {preserveDrawingBuffer: true, stencil: true});
-        </script>
-        -->
+        <canvas id="renderCanvas" ></canvas>       
     </div>
 </body>
 

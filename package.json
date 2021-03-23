@@ -37,6 +37,8 @@
     "@ambers/lang": "^0.30.0",
     "@ambers/silk": "^0.6.0",
     "babylonjs": "^4.2.0",
+    "babylonjs-loaders": "^4.2.0",
+    "babylonjs-materials": "^4.2.0",
     "es6-promise": "^4.2.6"
   },
   "devDependencies": {
