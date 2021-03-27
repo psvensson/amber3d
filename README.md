@@ -1,6 +1,6 @@
 # amber3d
 
-This is a small demo application wriitng in Amber Smalltalk, using BabolynJS to create a small scene, including an animated glTF model (combining several animations from Mixamo).
+This is a small demo application wriitng in Amber Smalltalk, using BabylonJS to create a small scene, including an animated glTF model (combining several animations from Mixamo).
 
 ![image](https://github.com/psvensson/amber3d/blob/main/Screenshot%20from%202021-03-23%2020-48-11.png)
 
